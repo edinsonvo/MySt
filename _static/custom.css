@@ -1,0 +1,54 @@
+:root {
+  --brand-color: #1A8A4A;
+  --brand-color-light: rgba(26, 138, 74, 0.1);
+  --header-brand-color: #1A8A4A;
+}
+
+.bd-header {
+  background-color: #0f172a !important;
+}
+
+.bd-sidebar-primary {
+  background-color: #f8fafc !important;
+}
+
+.bd-sidebar-primary .bd-sidebar-primary__inner {
+  padding: 1rem 0.5rem;
+}
+
+.bd-article-container {
+  max-width: 800px;
+}
+
+.bd-header-title {
+  color: white !important;
+}
+
+.math-block {
+  background-color: var(--brand-color-light);
+  border-left: 4px solid var(--brand-color);
+  padding: 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.admonition {
+  border-radius: 8px;
+}
+
+.jp-RenderedHTMLCommon table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+.jp-RenderedHTMLCommon th,
+.jp-RenderedHTMLCommon td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem;
+}
+
+.jp-RenderedHTMLCommon th {
+  background-color: #f1f5f9;
+  font-weight: 600;
+}
